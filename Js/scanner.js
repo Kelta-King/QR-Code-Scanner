@@ -18,6 +18,6 @@ let divs = document.getElementsByTagName("DIV");
 divs[1].setAttribute("style", "display:none");
 divs[divs.length-1].setAttribute("style", "display:none");
 
-for(let i =0; i<divs.length;i++)
+for(let i =0; i<divs.length;i++){
   console.log(divs[i]);
 }
